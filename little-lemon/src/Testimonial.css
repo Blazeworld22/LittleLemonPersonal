@@ -69,4 +69,14 @@
     color: #444;
     margin-top: 10px;
   }
+  @media (max-width: 768px) {
+    .testimonials-container {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center the stacked cards */
+    }
+  
+    .testimonial-card {
+      width: 80%; /* Make cards take up more space on mobile */
+    }
+  }
   

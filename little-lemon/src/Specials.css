@@ -96,3 +96,13 @@
     width: 20px;
     margin-right: 8px;
   }  
+  @media (max-width: 768px) {
+    .specials-container {
+      flex-direction: column; /* Stack cards vertically on small screens */
+      align-items: center; /* Center the cards */
+    }
+  
+    .special-card {
+      width: 80%; /* Make cards take up more space on mobile */
+    }
+  }  

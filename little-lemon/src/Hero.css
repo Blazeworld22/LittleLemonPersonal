@@ -28,6 +28,7 @@
     line-height: 1.5;
     color: #444;
     margin-bottom: 20px;
+    margin-right: 30px
   }
   
   .hero-button {
@@ -47,6 +48,7 @@
   .hero-image {
     flex: 1;
     text-align: right;
+    margin-left: 30px;
   }
   
   .hero-image img {
@@ -54,3 +56,24 @@
     height: auto;
     border-radius: 10px;
   }  
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    .hero-image {
+      margin-left: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .hero-image img {
+      width: 80%; /* Adjust image size for smaller screens */
+    }
+  }
+  

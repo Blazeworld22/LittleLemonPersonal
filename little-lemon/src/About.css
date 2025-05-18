@@ -54,4 +54,33 @@
     position: relative;
     top: -30px; /* Raises this image higher */
   }
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column; /* Stack text and images vertically */
+      align-items: center;
+      gap: 50px; /* Reduce gap for better spacing */
+      text-align: center;
+    }
+  
+    .about-text {
+      max-width: 80%; /* Allow text to take up more space */
+    }
+  
+    .about-images {
+      flex-direction: column; /* Stack images on mobile */
+      align-items: center;
+    }
+  
+    .about-img {
+      width: 90%; /* Adjust image width for smaller screens */
+    }
+  
+    .about-img-low {
+      top: 0; /* Reset positioning for smaller screens */
+    }
+  
+    .about-img-high {
+      top: 0; /* Reset positioning for smaller screens */
+    }
+  }
   
