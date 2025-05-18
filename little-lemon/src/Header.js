@@ -1,13 +1,17 @@
 import React from 'react';
-
+import logo from './images/Asset 16@4x.png';
+import './Header.css';
+import Nav from './Nav';
 function Header() {
   return (
-    <header>
-      {/* Here you can add your logo and title */}
-      <img src="src/images/Asset 16@4x.png" alt="Little Lemon Logo" />
-      <h1>Little Lemon</h1>
+    <header className="site-header">
+      <div className="header-container">
+        <div className="logo-section">
+          <img src={logo} alt="Little Lemon Logo" />
+        </div>
+        <Nav/>
+      </div>
     </header>
   );
 }
-
 export default Header;

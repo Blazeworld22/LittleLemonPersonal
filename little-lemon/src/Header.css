@@ -1,0 +1,44 @@
+
+.site-header {
+    background-color: #fff;      /* You can adjust the background color */
+    padding: 15px 30px;          /* Extra padding for a balanced look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow */
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This places the logo on the far left and navigation on the right */
+  }
+  
+  .logo-section img {
+    max-width: 120px; /* Adjust as needed */
+  }
+
+.nav-section .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Controls spacing between navigation items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-section .nav-item a {
+  text-decoration: none;
+  color: #333;      /* Update the color to suit your design */
+  font-weight: 600; /* A slightly bolder text for clarity */
+  font-size: 16px;  /* Adjust font size as needed */
+}
+
+/* Optional: Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-section .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

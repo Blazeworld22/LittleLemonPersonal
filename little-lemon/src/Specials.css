@@ -1,0 +1,98 @@
+/* Specials.css */
+.specials-section {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .specials-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .menu-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #ff4a4a;
+  }
+  
+  /* Specials Card Layout */
+  .specials-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .special-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: left;
+  }
+  
+  .dish-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .special-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .dish-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dish-price {
+    font-size: 18px;
+    color: #ff6b6b;
+  }
+  
+  .dish-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .order-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    transition: 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #ff4a4a;
+  }
+  
+  .delivery-icon {
+    width: 20px;
+    margin-right: 8px;
+  }  
