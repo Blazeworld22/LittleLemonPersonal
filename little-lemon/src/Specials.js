@@ -1,7 +1,7 @@
 import React from 'react';
 import './Specials.css';
-import dish1 from './images/salmon.jpeg';
-import dish2 from './images/pasta.jpeg';
+import dish1 from './images/7aeb50.jpg';
+import dish2 from './images/a76e.jpg';
 import dish3 from './images/medsalad.jpeg';
 import deliveryLogo from './images/delivery.jpg'; // Delivery logo
 

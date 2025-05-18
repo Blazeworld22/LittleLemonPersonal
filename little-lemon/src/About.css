@@ -1,0 +1,57 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f8f8f8;
+    gap: 150px;
+  }
+  
+  /* Left Side (Text) */
+  .about-text {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .about-location {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #444;
+    margin-top: 15px;
+  }
+  
+  /* Right Side (Images) */
+  .about-images {
+    flex: 1;
+    display: flex;
+    gap: 0; /* Ensures no space between images */
+    position: relative;
+  }
+  
+  .about-img {
+    width: 230px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Positioning: One lower, one higher */
+  .about-img-low {
+    position: relative;
+    top: 30px; /* Pushes this image slightly downward */
+  }
+  
+  .about-img-high {
+    position: relative;
+    top: -30px; /* Raises this image higher */
+  }
+  
