@@ -3,7 +3,7 @@ import './Specials.css';
 import dish1 from './images/7aeb50.jpg';
 import dish2 from './images/a76e.jpg';
 import dish3 from './images/medsalad.jpeg';
-import deliveryLogo from './images/delivery.jpg'; // Delivery logo
+import deliveryLogo from './images/delhivery.jpg'; // Delivery logo
 
 function Specials() {
   const specialsData = [
@@ -16,7 +16,7 @@ function Specials() {
     <section className="specials-section">
       {/* Header & Online Menu Button */}
       <div className="specials-header">
-        <h2>Specials</h2>
+        <h2>This Week's Specials!</h2>
         <button className="menu-button">View Online Menu</button>
       </div>
 
@@ -31,8 +31,8 @@ function Specials() {
                 <span className="dish-price">{item.price}</span>
               </div>
               <p className="dish-description">{item.description}</p>
-              <button className="order-button">
-                <img src={deliveryLogo} alt="Delivery Logo" className="delivery-icon" /> Order for Delivery
+              <button className="order-button">Order for Delivery
+                <img src={deliveryLogo} alt="Delivery Logo" className="delivery-icon" /> 
               </button>
             </div>
           </div>

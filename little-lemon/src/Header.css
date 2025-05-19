@@ -1,6 +1,6 @@
 
 .site-header {
-    background-color: #fff;      /* You can adjust the background color */
+    background-color: #fff;   
     padding: 15px 30px;          /* Extra padding for a balanced look */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow */
   }
@@ -12,14 +12,14 @@
   }
   
   .logo-section img {
-    max-width: 120px; /* Adjust as needed */
+    max-width: 120px; 
   }
 
 .nav-section .nav-list {
   list-style: none;
   display: flex;
   gap: 20px; /* Controls spacing between navigation items */
-  margin: 0;
+  margin-right: 20px;
   padding: 0;
 }
 
@@ -27,7 +27,8 @@
   text-decoration: none;
   color: #333;      /* Update the color to suit your design */
   font-weight: 600; /* A slightly bolder text for clarity */
-  font-size: 16px;  /* Adjust font size as needed */
+  font-size: 18px; 
+  font-family: Karla;
 }
 
 /* Optional: Media Query for Responsive Design */

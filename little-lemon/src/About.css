@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #f8f8f8;
+    background-color: white;
     gap: 150px;
   }
   
@@ -14,20 +14,25 @@
   }
   
   .about-title {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 64px;
+    font-weight: medium;
+    font-family: MarkaziText;
   }
   
   .about-location {
-    font-size: 24px;
-    color: #666;
+    font-size: 40px;
+    font-weight: regular;
+    font-family: MarkaziText;
+    color: black;
   }
   
   .about-description {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     color: #444;
     margin-top: 15px;
+    font-weight: bold;
+    font-family: Karla;
   }
   
   /* Right Side (Images) */

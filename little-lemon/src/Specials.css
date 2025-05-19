@@ -8,21 +8,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   
   .specials-header h2 {
-    font-size: 24px;
-    font-weight: 600;
+    flex: 1;
+    font-size: 40px;
+    font-weight: Medium;
+    font-family: Karla;
+    text-align: left;
   }
   
   .menu-button {
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #f4ce14;
+    color: rgb(6, 1, 1);
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: Roboto;
     cursor: pointer;
     transition: 0.3s ease;
+    font-weight: bold;
   }
   
   .menu-button:hover {
@@ -32,13 +38,13 @@
   /* Specials Card Layout */
   .specials-container {
     display: flex;
-    gap: 20px;
+    gap: 80px;
     justify-content: center;
     margin-top: 20px;
   }
   
   .special-card {
-    background-color: white;
+    background-color: #edefee;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
@@ -48,7 +54,9 @@
   
   .dish-image {
     width: 100%;
-    border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+    color: black;
   }
   
   .special-card-header {
@@ -59,33 +67,40 @@
   }
   
   .dish-name {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: medium;
+    font-family: Markazi Text;
+    color: black;
   }
   
   .dish-price {
-    font-size: 18px;
-    color: #ff6b6b;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: Karla;
   }
   
   .dish-description {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
+    font-family: Karla;
+    font-weight: Regular;
   }
   
   .order-button {
     display: flex;
     align-items: center;
-    background-color: #ff6b6b;
-    color: white;
+    color: black;
     border: none;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    justify-content: flex-start;
     width: 100%;
-    justify-content: center;
     transition: 0.3s ease;
+    font-family: Karla;
+    font-weight: bold;
   }
   
   .order-button:hover {
@@ -94,12 +109,12 @@
   
   .delivery-icon {
     width: 20px;
-    margin-right: 8px;
+    margin-left: 5px;
   }  
   @media (max-width: 768px) {
     .specials-container {
       flex-direction: column; /* Stack cards vertically on small screens */
-      align-items: center; /* Center the cards */
+      align-items: center; 
     }
   
     .special-card {

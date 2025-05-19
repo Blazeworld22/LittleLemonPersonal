@@ -1,7 +1,7 @@
 /* Testimonials.css */
 .testimonials-section {
     padding: 50px;
-    background-color: #f8f8f8;
+    background-color: #d9d9d9;
     text-align: center;
   }
   
@@ -14,12 +14,12 @@
   /* Testimonials Cards Layout */
   .testimonials-container {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
   }
   
   .testimonial-card {
-    background: white;
+    background: #ffffff;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
@@ -29,17 +29,29 @@
   
   /* Rating */
   .testimonial-rating {
-    text-align: center;
+    display: flex;
+    text-align: right;
+    align-items: center;
     font-size: 18px;
     color: #ffcc00;
-    margin-bottom: 10px;
+    padding-left : 30px;
   }
-  
+  .testimonial-rating p{
+    color: black;
+    text-align: left;
+    margin-right: 10px;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: bold;
+  }
   /* User Image & Info */
   .testimonial-user {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: bold;
   }
   
   .user-image {
@@ -55,12 +67,16 @@
   
   .testimonial-name {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Karla;
   }
   
   .testimonial-username {
     color: #666;
     font-size: 14px;
+    font-family: Karla;
+    font-weight: regular;
   }
   
   /* Review Text */

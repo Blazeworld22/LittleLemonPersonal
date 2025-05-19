@@ -23,7 +23,8 @@ function Testimonials() {
           <div key={index} className="testimonial-card">
             {/* Rating (Stars) */}
             <div className="testimonial-rating">
-              {"⭐".repeat(testimonial.rating)}
+              <p>Rating</p>
+              <span className="stars">{"⭐".repeat(testimonial.rating)}</span>
             </div>
 
             {/* User Image */}

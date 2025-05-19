@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/Asset 14@4x.png';
+import logo from './images/Asset 16@4x.png';
 import './Header.css';
 import Nav from './Nav';
 function Header() {
