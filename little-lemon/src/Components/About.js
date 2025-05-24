@@ -6,6 +6,7 @@ import image2 from '../images/c1bff.jpg'; // Second image
 
 function About() {
   return (
+    <>
     <section className="about-section">
       {/* Left Content */}
       <div className="about-text">
@@ -32,6 +33,10 @@ Would you like to refine or add more personal touches to this story? I'm happy t
         <img src={image2} alt="Dining Area" className="about-img about-img-high" />
       </div>
     </section>
+    <section>
+      <Testimonial/>
+    </section>
+    </>
   );
 }
 
