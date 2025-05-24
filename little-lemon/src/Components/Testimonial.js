@@ -1,9 +1,9 @@
 import React from 'react';
 import './Testimonial.css';
-import user1 from './images/student.jpeg';
-import user2 from './images/man.jpeg';
-import user3 from './images/woman.jpeg';
-import user4 from './images/grandpa.jpeg';
+import user1 from '../images/student.jpeg';
+import user2 from '../images/man.jpeg';
+import user3 from '../images/woman.jpeg';
+import user4 from '../images/grandpa.jpeg';
 
 const testimonialsData = [
   { name: "Alice Johnson", username: "@alicej", rating: 5, review: "Amazing food and great service!", image: user1 },

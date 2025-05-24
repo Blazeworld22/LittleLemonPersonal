@@ -1,0 +1,101 @@
+/* Container: centers the booking card on a soft, gradient background */
+.booking-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  background: linear-gradient(135deg, #f3f3f3, #eaeaea);
+  min-height: 80vh;
+}
+
+/* Booking Card: a clean, white card with rounded corners and a soft drop shadow */
+.booking-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headings and paragraph styles */
+.booking-card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.booking-card p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Form layout with neat spacing */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Group: for individual label-input pairs */
+.booking-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label styles */
+.booking-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Input fields: a light border with a subtle focus state */
+.booking-form input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.booking-form input:focus {
+  outline: none;
+  border-color: #e80fa7;
+}
+
+/* Button styles: vibrant color with smooth transition on hover */
+.booking-form button {
+  background-color: #e80fa7;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #d70f9c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .booking-card {
+    padding: 20px;
+  }
+  
+  .booking-card h1 {
+    font-size: 28px;
+  }
+  
+  .booking-card p {
+    font-size: 16px;
+  }
+}

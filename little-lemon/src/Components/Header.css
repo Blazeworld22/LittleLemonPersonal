@@ -15,7 +15,7 @@
     max-width: 120px; 
   }
 
-.nav-section .nav-list {
+.nav-list {
   list-style: none;
   display: flex;
   gap: 20px; /* Controls spacing between navigation items */
@@ -23,9 +23,9 @@
   padding: 0;
 }
 
-.nav-section .nav-item a {
+.nav-item a {
   text-decoration: none;
-  color: #333;      /* Update the color to suit your design */
+  color: #333;    
   font-weight: 600; /* A slightly bolder text for clarity */
   font-size: 18px; 
   font-family: Karla;
@@ -38,7 +38,7 @@
     align-items: center;
   }
   
-  .nav-section .nav-list {
+  .nav-list {
     flex-direction: column;
     gap: 10px;
   }

@@ -1,26 +1,23 @@
 import React from 'react';
+import Nav from './Nav'
 import './Footer.css';
-import logo from './images/Asset 20@4x.png';
+import logo from '../images/Asset 20@4x.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <footer className="footer-container">
       {/* Left: Logo */}
       <div className="footer-logo">
+        <Link to="/">
         <img src={logo} alt="Little Lemon Logo" />
+        </Link>
       </div>
 
       {/* Middle: Navigation */}
       <div className="footer-nav">
         <h3>Navigation</h3>
-        <ul className="footer-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/menu">Menu</a></li>
-          <li><a href="/reservations">Reservations</a></li>
-          <li><a href="/order-online">Order Online</a></li>
-          <li><a href="/login">Login</a></li>
-        </ul>
+        <Nav isFooter={true}/>
       </div>
 
       {/* Next Section: Contact Info */}

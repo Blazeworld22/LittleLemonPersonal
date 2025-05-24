@@ -1,9 +1,9 @@
 import React from 'react';
 import './Specials.css';
-import dish1 from './images/7aeb50.jpg';
-import dish2 from './images/a76e.jpg';
-import dish3 from './images/medsalad.jpeg';
-import deliveryLogo from './images/delhivery.jpg'; // Delivery logo
+import dish1 from '../images/7aeb50.jpg';
+import dish2 from '../images/a76e.jpg';
+import dish3 from '../images/medsalad.jpeg';
+import deliveryLogo from '../images/delhivery.jpg'; // Delivery logo
 
 function Specials() {
   const specialsData = [

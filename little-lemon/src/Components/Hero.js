@@ -1,8 +1,15 @@
 import React from 'react';
 import './Hero.css';  // Import the CSS for styling
-import restaurantImage from './images/mediterranean-cuisine-ANG.png'; // Update path based on your project structure
+import restaurantImage from '../images/mediterranean-cuisine-ANG.png';
+import { useNavigate } from 'react-router-dom';
+
 
 function Hero() {
+  const navigate = useNavigate();
+
+  const handleBookingClick = () => {
+    navigate('/booking');
+  };
   return (
     <section className="hero-container">
       {/* Left section: Text content */}
@@ -14,7 +21,7 @@ function Hero() {
           From fresh ingredients to expertly crafted dishes, we bring you 
           a taste of the Mediterranean right in the heart of Chicago.
         </p>
-        <button className="hero-button">Reserve a Table</button>
+        <button className="hero-button" onClick={handleBookingClick}>Reserve a Table</button>
       </div>
 
       {/* Right section: Restaurant image */}
