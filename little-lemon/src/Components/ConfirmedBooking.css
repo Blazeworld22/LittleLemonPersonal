@@ -1,0 +1,15 @@
+.back-home-btn {
+  background-color: #f4ce14;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: #5842e7; /* Slightly darker */
+  box-shadow: 0 0 20px 4px rgba(235, 235, 201, 0.8);
+}

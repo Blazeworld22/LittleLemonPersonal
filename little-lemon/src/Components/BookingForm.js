@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './BookingForm.css';
 
-function BookingForm({ availableTimes, dispatch }) {
+function BookingForm({ availableTimes, dispatch, submitForm }) {
   // Create state for the form fields
   const [formData, setFormData] = useState({
     date: '',
@@ -27,10 +27,7 @@ function BookingForm({ availableTimes, dispatch }) {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Process your formData here (e.g., send it to an API)
-    console.log('Form Submitted:', formData);
-    // Optionally reset the form:
-    // setFormData({ date: '', time: '', occasion: 'Birthday', partySize: 1 });
+    submitForm(formData);
   };
 
   return (
