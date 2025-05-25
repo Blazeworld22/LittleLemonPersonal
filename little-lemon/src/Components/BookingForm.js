@@ -10,6 +10,16 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
     partySize: 1, // Default party size set to 1
   });
 
+  // Check if the form inputs are valid
+  function isFormValid(formData) {
+  return (
+    formData.date.trim() !== "" &&
+    formData.time.trim() !== "" &&
+    formData.occasion.trim() !== "" &&
+    formData.partySize &&
+    parseInt(formData.partySize, 10) >= 1
+  );
+}
   // Handle input changes for controlled components
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,7 +37,9 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    submitForm(formData);
+    if (isFormValid()) {
+      submitForm(formData);
+    }
   };
 
   return (
@@ -100,7 +112,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
             />
           </div>
           
-          <button type="submit">Reserve Now</button>
+          <button type="submit" aria-label="submit button">Reserve Now</button>
         </form>
       </div>
     </div>

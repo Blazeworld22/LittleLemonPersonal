@@ -30,7 +30,7 @@ function ConfirmedBooking() {
           <p><strong>Occasion:</strong> {occasion}</p>
           <p><strong>Party Size:</strong> {partySize}</p>
         </div>
-        <button className="back-home-btn" onClick={() => navigate('/')}>
+        <button className="back-home-btn" onClick={() => navigate('/') } aria-label="on click">
           Back to Home
         </button>
       </div>
